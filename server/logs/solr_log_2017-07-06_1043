@@ -1,0 +1,150 @@
+2017-07-05 09:59:41.932 INFO  (main) [   ] o.e.j.u.log Logging initialized @3794ms
+2017-07-05 09:59:44.734 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-07-05 09:59:44.990 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-07-05 09:59:44.992 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/F:/aem/solar/solr-5.5.4/server/contexts/] at interval 0
+2017-07-05 09:59:46.431 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-07-05 09:59:46.475 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@e25b2fe{/solr,file:/F:/aem/solar/solr-5.5.4/server/solr-webapp/webapp/,STARTING}{F:\aem\solar\solr-5.5.4\server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-07-05 09:59:46.515 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=117244645@6fd02e5
+2017-07-05 09:59:46.675 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-07-05 09:59:46.676 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: F:\aem\solar\solr-5.5.4\server\solr
+2017-07-05 09:59:46.677 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'F:\aem\solar\solr-5.5.4\server\solr'
+2017-07-05 09:59:46.677 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-07-05 09:59:46.677 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: F:\aem\solar\solr-5.5.4\server\solr
+2017-07-05 09:59:46.742 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from F:\aem\solar\solr-5.5.4\server\solr\solr.xml
+2017-07-05 09:59:47.452 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: F:\aem\solar\solr-5.5.4\server\solr
+2017-07-05 09:59:47.778 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1161667116
+2017-07-05 09:59:47.779 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=F:\aem\solar\solr-5.5.4\server\solr]
+2017-07-05 09:59:47.781 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from F:\aem\solar\solr-5.5.4\server\solr\lib to classpath: F:\aem\solar\solr-5.5.4\server\solr\lib
+2017-07-05 09:59:47.891 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2017-07-05 09:59:48.201 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-07-05 09:59:48.209 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-07-05 09:59:48.209 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-07-05 09:59:48.212 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-07-05 09:59:48.212 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-07-05 09:59:48.535 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath F:\aem\solar\solr-5.5.4\server\solr
+2017-07-05 09:59:48.740 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=satya123, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data\}
+2017-07-05 09:59:48.740 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core satya123 in F:\aem\solar\solr-5.5.4\server\solr\satya123
+2017-07-05 09:59:48.741 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2017-07-05 09:59:48.754 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=F:\aem\solar\solr-5.5.4\server
+2017-07-05 09:59:48.755 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-07-05 09:59:48.756 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'F:\aem\solar\solr-5.5.4\server\solr\satya123'
+2017-07-05 09:59:48.757 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-07-05 09:59:48.757 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: F:\aem\solar\solr-5.5.4\server\solr
+2017-07-05 09:59:49.006 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@e25b2fe{/solr,file:/F:/aem/solar/solr-5.5.4/server/solr-webapp/webapp/,AVAILABLE}{F:\aem\solar\solr-5.5.4\server/solr-webapp/webapp}
+2017-07-05 09:59:49.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2017-07-05 09:59:49.209 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-07-05 09:59:49.270 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@3023df74{HTTP/1.1}{0.0.0.0:8983}
+2017-07-05 09:59:49.272 INFO  (main) [   ] o.e.j.s.Server Started @11135ms
+2017-07-05 09:59:49.379 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-07-05 09:59:49.379 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-07-05 09:59:49.379 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-07-05 09:59:49.380 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-07-05 09:59:49.380 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-07-05 09:59:49.380 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-07-05 09:59:49.380 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-07-05 09:59:49.380 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-07-05 09:59:49.380 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-07-05 09:59:49.381 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-07-05 09:59:49.381 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-07-05 09:59:49.381 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-07-05 09:59:49.381 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-07-05 09:59:49.381 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2017-07-05 09:59:49.381 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-07-05 09:59:49.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-07-05 09:59:49.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-07-05 09:59:49.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-07-05 09:59:49.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-07-05 09:59:49.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-07-05 09:59:49.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-07-05 09:59:49.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-07-05 09:59:49.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-07-05 09:59:49.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-07-05 09:59:49.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-07-05 09:59:49.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-07-05 09:59:49.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-07-05 09:59:49.384 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-07-05 09:59:49.384 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-07-05 09:59:49.384 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-07-05 09:59:49.384 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-07-05 09:59:49.384 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-07-05 09:59:49.384 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/dist/solr-cell-5.5.4.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2017-07-05 09:59:49.385 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/dist/solr-clustering-5.5.4.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/dist/solr-langid-5.5.4.jar' to classloader
+2017-07-05 09:59:49.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-07-05 09:59:49.388 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2017-07-05 09:59:49.388 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-07-05 09:59:49.388 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-07-05 09:59:49.388 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/F:/aem/solar/solr-5.5.4/dist/solr-velocity-5.5.4.jar' to classloader
+2017-07-05 09:59:55.545 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.5.4
+2017-07-05 09:59:55.949 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2017-07-05 09:59:56.089 INFO  (qtp1450821318-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2806
+2017-07-05 09:59:56.145 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [satya123] Schema name=example-data-driven-schema
+2017-07-05 09:59:57.556 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-07-05 09:59:59.153 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-07-05 09:59:59.193 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-07-05 09:59:59.283 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'F:\aem\solar\solr-5.5.4\server\solr\satya123'
+2017-07-05 09:59:59.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'satya123' using configuration from instancedir F:\aem\solar\solr-5.5.4\server\solr\satya123
+2017-07-05 09:59:59.299 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-07-05 09:59:59.349 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore [[satya123] ] Opening new SolrCore at [F:\aem\solar\solr-5.5.4\server\solr\satya123], dataDir=[F:\aem\solar\solr-5.5.4\server\solr\satya123\data\]
+2017-07-05 09:59:59.379 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-07-05 09:59:59.384 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore [[satya123] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-07-05 09:59:59.384 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore [[satya123] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-07-05 09:59:59.390 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2017-07-05 09:59:59.460 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.CachingDirectoryFactory return new directory for F:\aem\solar\solr-5.5.4\server\solr\satya123\data
+2017-07-05 09:59:59.474 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore New index directory detected: old=null new=F:\aem\solar\solr-5.5.4\server\solr\satya123\data\index/
+2017-07-05 09:59:59.495 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.CachingDirectoryFactory return new directory for F:\aem\solar\solr-5.5.4\server\solr\satya123\data\index
+2017-07-05 09:59:59.576 INFO  (OldIndexDirectoryCleanupThreadForCore-satya123) [   x:satya123] o.a.s.c.SolrCore Looking for old index directories to cleanup for core satya123 in F:\aem\solar\solr-5.5.4\server\solr\satya123\data\
+2017-07-05 09:59:59.580 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-07-05 09:59:59.633 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-05 09:59:59.916 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2017-07-05 10:00:00.134 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-07-05 10:00:00.317 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-07-05 10:00:00.319 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-07-05 10:00:00.320 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-07-05 10:00:00.321 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-07-05 10:00:00.339 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-07-05 10:00:00.339 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-07-05 10:00:00.339 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-07-05 10:00:00.341 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-07-05 10:00:00.341 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-07-05 10:00:00.341 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-07-05 10:00:00.341 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-07-05 10:00:00.342 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2017-07-05 10:00:00.344 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-07-05 10:00:00.408 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-05 10:00:00.408 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-05 10:00:00.543 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-05 10:00:00.543 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-05 10:00:00.767 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@F:\aem\solar\solr-5.5.4\server\solr\satya123\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@6d4a3659; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2017-07-05 10:00:00.768 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.SolrDeletionPolicy newest commit generation = 2
+2017-07-05 10:00:00.977 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.s.SolrIndexSearcher Opening Searcher@66d3bd3f[satya123] main
+2017-07-05 10:00:00.997 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: F:\aem\solar\solr-5.5.4\server\solr\satya123\conf
+2017-07-05 10:00:00.997 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=F:\aem\solar\solr-5.5.4\server\solr\satya123\conf}
+2017-07-05 10:00:01.023 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=F:\aem\solar\solr-5.5.4\server\solr\satya123\conf
+2017-07-05 10:00:01.024 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-07-05 10:00:01.044 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-05 10:00:01.061 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-05 10:00:01.062 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-07-05 10:00:01.068 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: F:\aem\solar\solr-5.5.4\server\solr\satya123\conf\elevate.xml
+2017-07-05 10:00:01.120 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-05 10:00:01.120 INFO  (searcherExecutor-7-thread-1-processing-x:satya123) [   x:satya123] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@66d3bd3f[satya123] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.5.4):C109)))}
+2017-07-05 10:00:01.120 INFO  (searcherExecutor-7-thread-1-processing-x:satya123) [   x:satya123] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-05 10:00:01.120 INFO  (searcherExecutor-7-thread-1-processing-x:satya123) [   x:satya123] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-05 10:00:01.121 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-07-05 10:00:01.121 INFO  (searcherExecutor-7-thread-1-processing-x:satya123) [   x:satya123] o.a.s.c.SolrCore [satya123] Registered new searcher Searcher@66d3bd3f[satya123] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.5.4):C109)))}
+2017-07-05 10:00:01.122 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-07-05 10:00:01.134 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.VersionInfo Found MAX value 1571984191855263744 from Terms for _version_ in index
+2017-07-05 10:00:01.139 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.u.UpdateLog Took 18.0ms to seed version buckets with highest version 1571984191855263744
+2017-07-05 10:00:01.140 INFO  (coreLoadExecutor-6-thread-1) [   x:satya123] o.a.s.c.CoreContainer registering core: satya123
